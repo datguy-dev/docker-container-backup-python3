@@ -10,11 +10,11 @@ GZ_NICKNAME='rt'
 
 containers_to_backup = [
     [
-        'xxxxxxxxx', #containers info see "docker images"
+        'xxxxxxxxx', #container name info see "docker images"
         'xxxx' #any nickname you wish
     ],
     [
-        'xxxxxxxxx', #containers info see "docker images"
+        'xxxxxxxxx', #container name see "docker images"
         'xxxxx' #any nickname you wish
     ],
     #add more?
