@@ -6,10 +6,10 @@ A script I use to backup my containers and archive them
 # Directory setup example:
 ```
 dev@node:~$ tree ./backups/
-./backups/
+./backups/ #BACKUP_WORKING_DIR
 ├── rt_2019_03_14_22-45-27.tar.gz   #a backup
 ├── rt_backup_03_14_19_15_45_53.tar #another backup
-└── temp #folder used to hold temp archives
+└── temp #BACKUP_TEMP_DIR. folder used to hold temp archives
 
 1 directory, 2 files
 ```
